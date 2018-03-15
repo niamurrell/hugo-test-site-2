@@ -1,0 +1,22 @@
+# Documentation: https://www.netlifycms.org/docs/add-to-your-site/
+
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", default: [] }
+      - {label: "Categories", name: "categories", widget: "list", default: [] }
+      - {label: "Banner Image", name: "banner", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
