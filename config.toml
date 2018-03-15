@@ -1,4 +1,4 @@
-baseurl = "https://example.org"
+baseurl = "https://musing-mccarthy-32a084.netlify.com"
 title = "Universal"
 theme = "universal"
 themesDir = "./themes/"
