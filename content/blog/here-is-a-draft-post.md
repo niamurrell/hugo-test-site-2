@@ -1,8 +1,12 @@
 ---
 title: Here is A Draft Post
 date: '2018-03-14T20:29:31-07:00'
-tags: []
-categories: []
+tags:
+  - Cats
+  - Bling
+  - Ipsum
+categories:
+  - pseudo
 banner: /img/uploads/new-banner-3.jpg
 ---
 Mesmerizing birds. Plan steps for world domination chew foot sit on human but make meme, make cute face or sleep in the bathroom sink chew iPad power cord, so behind the couch. Hack cat snacks cats are fats i like to pets them they like to meow back. Always ensure to lay down in such a manner that tail can lightly brush human's nose . 
